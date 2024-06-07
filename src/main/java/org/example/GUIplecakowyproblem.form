@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.GUIplecakowyproblem">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="515" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-21836"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <hspacer id="1d131">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <component id="8ac42" class="javax.swing.JButton" binding="button1" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="20" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-65259"/>
+          <horizontalAlignment value="0"/>
+          <text value="Rozwiąż"/>
+        </properties>
+      </component>
+      <component id="4a26c" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ade92" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ade4f" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="6464d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <foreground color="-16502773"/>
+          <text value="Podaj ilosc przedmiotow"/>
+        </properties>
+      </component>
+      <component id="38387" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <foreground color="-16502773"/>
+          <text value="Podaj ziarno"/>
+        </properties>
+      </component>
+      <component id="7cee1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <foreground color="-16502773"/>
+          <text value="Podaj pojemnosc plecaka"/>
+        </properties>
+      </component>
+      <scrollpane id="9da4b">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.5" weighty="1.0"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a8386" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-5519105"/>
+              <editable value="false"/>
+              <enabled value="true"/>
+              <lineWrap value="false"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="e9148">
+        <constraints>
+          <grid row="0" column="2" row-span="8" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="2f659" class="javax.swing.JTextArea" binding="textArea2" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-5519105"/>
+              <editable value="false"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
