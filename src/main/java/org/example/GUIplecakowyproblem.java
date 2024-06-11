@@ -14,7 +14,7 @@ public class GUIplecakowyproblem {
     private JTextField textField3;
     private JTextArea textArea1;
     private JTextArea textArea2;
-
+    //test
     public GUIplecakowyproblem() {
         button1.addActionListener(new ActionListener() {
             @Override
